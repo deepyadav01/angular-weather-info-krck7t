@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 export class DataService {
   weatherIconURL = 'https://openweathermap.org/img/w/';
   weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q=';
-  weatherParams = '&units=metric&APPID=eb03b1f5e5afb5f4a4edb40c1ef2f534';
+  weatherParams = '&units=metric&APPID=f92c1f4990b0574d4a4e4d3dd556f388';
 
   constructor(public http: HttpClient) { }
 
