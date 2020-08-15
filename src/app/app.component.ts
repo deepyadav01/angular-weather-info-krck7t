@@ -80,6 +80,13 @@ export class AppComponent implements OnInit, OnDestroy {
       main: { temp: "", temp_min: "", temp_max: "" },
       coord: { lat: "", lon: "" }
     },
+    {
+      name: "",
+      error:"",
+      weather: [{ icon: "", description: "" }],
+      main: { temp: "", temp_min: "", temp_max: "" },
+      coord: { lat: "", lon: "" }
+    },
 
 
 
